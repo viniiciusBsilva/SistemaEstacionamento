@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="view.SaidaController">
+   <children>
+      <ComboBox layoutX="125.0" layoutY="26.0" prefWidth="150.0" promptText="placa" />
+      <Text layoutX="63.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Horário de Saída:" />
+      <Text layoutX="63.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempo: " />
+      <Text layoutX="63.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor:" />
+      <Text layoutX="167.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="124.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="1.0" />
+      <Text layoutX="105.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
